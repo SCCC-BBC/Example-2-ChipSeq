@@ -27,7 +27,7 @@ rundownloadFile <- function(input, output,wait.job=NULL) {
 
   Rfun <-paste0(Rfun1,Rinput,Rfun2)
 
-  rm.exon.intron <- createBsubJobArrayRfun(Rfun,"download[1]",wait.job.name=wait.job)
+  rm.exon.intron <- DoGs:::createBsubJobArrayRfun(Rfun,"download[1]",wait.job.name=wait.job)
 
   system(rm.exon.intron)
 }

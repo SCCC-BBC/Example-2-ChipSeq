@@ -1,1 +1,1 @@
-# Nm-ChipSeq
+# Example-2-ChipSeq

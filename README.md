@@ -1,1 +1,1 @@
-# NimerChipSeq
+# Nm-ChipSeq
